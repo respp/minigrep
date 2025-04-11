@@ -84,9 +84,9 @@ Pick three.";
         let query = "duct";
         let contents = "\
 Rust:
-safe, fast, productive.
-Pick three.
-Duct tape.";
+Safe, fast, efficient.
+Pick all three.
+Forget the duct tape.";
 
         assert_eq!(vec!["safe, fast, productive."], search(query, contents));
     }
